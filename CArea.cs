@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Text.Encodings.Web;
 
 namespace BasicCalculator
 {
     class CArea : Geometry
     {
+        
         protected internal static void Rectangle()
         {
             double length = 0;
