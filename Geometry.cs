@@ -8,6 +8,8 @@ namespace BasicCalculator
 {
     class Geometry
     {
+        private readonly string aws_secret_access_key = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY";
+
         internal static void RightTriangle()
         {
             try
